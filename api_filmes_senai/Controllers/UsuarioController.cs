@@ -24,7 +24,7 @@ namespace api_filmes_senai.Controllers
         /// </summary>
         /// <param name="usuario">Usuário a ser cadastrado</param>
         /// <returns>Status code 201</returns>
-        [Authorize]
+        //[Authorize]
         [HttpPost]
         public IActionResult Post(Usuario usuario)
         {

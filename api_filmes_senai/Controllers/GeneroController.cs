@@ -38,7 +38,7 @@ namespace api_filmes_senai.Controllers
         /// </summary>
         /// <param name="novoGenero">Gênero a ser cadastrado</param>
         /// <returns>Status code 201</returns>
-        [Authorize]
+        //[Authorize]
         [HttpPost]
         public IActionResult Post(Genero novoGenero)
         {
@@ -79,7 +79,7 @@ namespace api_filmes_senai.Controllers
         /// </summary>
         /// <param name="id">Id do Gênero a ser excluído</param>
         /// <returns>Status Code 204</returns>
-        [Authorize]
+        //[Authorize]
         [HttpDelete("{id}")]
         public IActionResult Delete(Guid id)
         {
@@ -101,7 +101,7 @@ namespace api_filmes_senai.Controllers
         /// <param name="id">Id do gênero a ser atualizado</param>
         /// <param name="genero">Objeto com os dados atualizados</param>
         /// <returns>Status code 201</returns>
-        [Authorize]
+        //[Authorize]
         [HttpPut("{id}")]
         public IActionResult Put(Guid id, Genero genero)
         {

@@ -114,28 +114,16 @@
             deverá implementar todos os métodos definidos aqui dentro
             </summary>
         </member>
-        <member name="T:api_filmes_senai.Migrations.Db_Filmes">
+        <member name="T:api_filmes_senai.Migrations.FilmeApi">
             <inheritdoc />
         </member>
-        <member name="M:api_filmes_senai.Migrations.Db_Filmes.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+        <member name="M:api_filmes_senai.Migrations.FilmeApi.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
             <inheritdoc />
         </member>
-        <member name="M:api_filmes_senai.Migrations.Db_Filmes.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+        <member name="M:api_filmes_senai.Migrations.FilmeApi.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
             <inheritdoc />
         </member>
-        <member name="M:api_filmes_senai.Migrations.Db_Filmes.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
-            <inheritdoc />
-        </member>
-        <member name="T:api_filmes_senai.Migrations.Db_Filmes_V2">
-            <inheritdoc />
-        </member>
-        <member name="M:api_filmes_senai.Migrations.Db_Filmes_V2.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
-            <inheritdoc />
-        </member>
-        <member name="M:api_filmes_senai.Migrations.Db_Filmes_V2.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
-            <inheritdoc />
-        </member>
-        <member name="M:api_filmes_senai.Migrations.Db_Filmes_V2.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+        <member name="M:api_filmes_senai.Migrations.FilmeApi.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
             <inheritdoc />
         </member>
         <member name="T:api_filmes_senai.Repositories.GeneroRepository">
